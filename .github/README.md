@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-direct-connect`](https://www.npmjs.com/package/@aws-sdk/client-direct-connect/v/3.610.0).
+[`@aws-sdk/client-direct-connect`](https://www.npmjs.com/package/@aws-sdk/client-direct-connect/v/3.613.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.610.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.613.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-qK9VzrK/ebw/gw8ALa32U47lNn8xKtrfq5ymZnJSG5QmEF0wHG3R76FWpG1O229D
+sha384-TVi0fX/Qxfb5k6si03kWRLHYhwNVdOKVCJgP7riGKq7diOFelH+25QFNezKxgeDx
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.610.0/index.min.mjs"
+            "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.613.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.610.0/index.min.mjs": "sha384-qK9VzrK/ebw/gw8ALa32U47lNn8xKtrfq5ymZnJSG5QmEF0wHG3R76FWpG1O229D"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.613.0/index.min.mjs": "sha384-TVi0fX/Qxfb5k6si03kWRLHYhwNVdOKVCJgP7riGKq7diOFelH+25QFNezKxgeDx"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.610.0/index.min.mjs"
+                        "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.613.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.610.0/index.min.mjs": "sha384-qK9VzrK/ebw/gw8ALa32U47lNn8xKtrfq5ymZnJSG5QmEF0wHG3R76FWpG1O229D"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.613.0/index.min.mjs": "sha384-TVi0fX/Qxfb5k6si03kWRLHYhwNVdOKVCJgP7riGKq7diOFelH+25QFNezKxgeDx"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.610.0`)
+* Always pin to a specific version (`@3.613.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-direct-connect/blob/refs/tags/3.610.0/LICENSE
+https://github.com/cloud-sdk-builds/client-direct-connect/blob/refs/tags/3.613.0/LICENSE
 ```
 
 ---
