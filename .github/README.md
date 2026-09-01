@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-direct-connect`](https://www.npmjs.com/package/@aws-sdk/client-direct-connect/v/3.1121.0).
+[`@aws-sdk/client-direct-connect`](https://www.npmjs.com/package/@aws-sdk/client-direct-connect/v/3.1122.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-direct-connect - [https://cloud-sdk-builds.github.io/?sdk=client-direct-connect](https://cloud-sdk-builds.github.io/?sdk=client-direct-connect)
-- @aws-sdk/client-direct-connect v3.1121.0 - [https://cloud-sdk-builds.github.io/?sdk=client-direct-connect&version=3.1121.0](https://cloud-sdk-builds.github.io/?sdk=client-direct-connect&version=3.1121.0)
+- @aws-sdk/client-direct-connect v3.1122.0 - [https://cloud-sdk-builds.github.io/?sdk=client-direct-connect&version=3.1122.0](https://cloud-sdk-builds.github.io/?sdk=client-direct-connect&version=3.1122.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1121.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1122.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-XzUOozEGlCHiWl8KGAvnYKJmMUsS/uPh2MBuln8cr5/NHVxHlgJiwRzUmAt4i0Hy
+sha384-gyj2nMnqcBuUS/Jb+RPEoOtJ5CJ8vjI2QPXN15mRbH6iUnNzlVAFxhJ83yEuKF+U
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1121.0/index.min.mjs"
+            "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1122.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1121.0/index.min.mjs": "sha384-XzUOozEGlCHiWl8KGAvnYKJmMUsS/uPh2MBuln8cr5/NHVxHlgJiwRzUmAt4i0Hy"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1122.0/index.min.mjs": "sha384-gyj2nMnqcBuUS/Jb+RPEoOtJ5CJ8vjI2QPXN15mRbH6iUnNzlVAFxhJ83yEuKF+U"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1121.0/index.min.mjs"
+                        "@aws-sdk/client-direct-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1122.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1121.0/index.min.mjs": "sha384-XzUOozEGlCHiWl8KGAvnYKJmMUsS/uPh2MBuln8cr5/NHVxHlgJiwRzUmAt4i0Hy"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-direct-connect@3.1122.0/index.min.mjs": "sha384-gyj2nMnqcBuUS/Jb+RPEoOtJ5CJ8vjI2QPXN15mRbH6iUnNzlVAFxhJ83yEuKF+U"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1121.0`)
+* Always pin to a specific version (`@3.1122.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-direct-connect/blob/refs/tags/3.1121.0/LICENSE
+https://github.com/cloud-sdk-builds/client-direct-connect/blob/refs/tags/3.1122.0/LICENSE
 ```
 
 ---
